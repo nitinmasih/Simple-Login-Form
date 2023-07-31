@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Simple Login Form with show and hide Password</title>
+    <link rel="stylesheet" href="style.css">
+ 
+  </head>
+ 
+  <body>
+    <form>
+      <fieldset>
+        <legend>Login form</legend>
+        <div>
+          <label>User Name</label><br />
+          <input type="text" name="" />
+          <div class="clear"></div>
+        </div>
+
+        <div>
+          <label> Password </label><br />
+          <input type="password" name="" id="password" />
+          <div class="clear"></div>
+        </div>
+        <div>
+          <button type="button">Login</button>
+          <button type="button" onclick="toggle(this)" style="width: 200px">
+            Show Password
+          </button>
+        </div>
+      </fieldset>
+    </form>
+    <script src="script.js"></script>
+  </body>
+ 
+</html>
